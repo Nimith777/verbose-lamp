@@ -1,23 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+//import Mapping from './components/Mapping';
+//import StateBasics from './components/StateBasics';
+import { Typography } from '@mui/material';
+//import Hi from './components/Hi';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* {<Mapping></Mapping>}
+      {<StateBasics></StateBasics>} */}
+      {/* {<Hi></Hi>} */}
+      {<Counter></Counter>}
     </div>
   );
 }
